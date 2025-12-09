@@ -23,6 +23,7 @@ urlpatterns = [
     path('test/',views.test, name='test'),
 
     # Auser
+    # Buser
     path('aweb/',views.aweb, name='aweb'),
 
 ]
