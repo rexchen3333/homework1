@@ -21,4 +21,8 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/',views.test, name='test'),
+
+    # Auser
+    path('aweb/',views.aweb, name='aweb'),
+
 ]
